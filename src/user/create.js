@@ -41,7 +41,6 @@ module.exports = function (User) {
 	}
 
 	async function create(data) {
-
 		const timestamp = data.timestamp || Date.now();
 
 		let userData = {

@@ -15,7 +15,7 @@ define('forum/register', [
 		const password_confirm = $('#password-confirm');
 		const register = $('#register');
 
-		showSuccess(isProfessor)
+		showSuccess(isProfessor);
 		handleLanguageOverride();
 
 		$('#content #noscript').val('false');
