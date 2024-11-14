@@ -40,7 +40,10 @@ Se agregó un Boolean() en el archivo src/posts/create.js para asegurarse de que
 
 Se agregaron parametros isUrgent a los posts de prueba en el archivo test/api.js para testear los posts de manera adecuada
 
-Se modificaron los tests para aceptar los "false" y "true" como booleanos, esto no es para nada ideal pero no pudimos descifrar por qué el sistema convertía estos booleanos a string ya que hicimos varias conversiones para verificar que estos sean booleanos 
+Se modificaron los tests para aceptar los "false" y "true" como booleanos, esto no es para nada ideal pero no pudimos descifrar por qué el sistema convertía estos booleanos a string ya que hicimos varias conversiones para verificar que estos sean booleanos.
+
+- **Modificar test de creacion de usuarios**.
+Se modificó el test existente para verificar la creación de usuario en test/user.js, donde ser verifica que se cree añadiendo el último atributo correspondiente.
 
 - **Internalizacion del boton**.
 
